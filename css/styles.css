@@ -1,0 +1,185 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección local */
+.local {
+    background-color: #007BFF;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.licdn.com/dms/image/v2/D4E12AQEkFq1C3hosaw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1693830700805?e=2147483647&v=beta&t=bkWpNC0hIotHQCuhWDWYsPum3xug3FA27avQMApK8PQ');
+        background-size:contain;
+        background-position: center;
+        color: white;
+        padding: 100px 20px;
+        text-align: center;
+}
+
+.local-content p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.local-content button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.local-content button:hover {
+    background-color: #e6b800;
+}
+
+.local-content .location-icon {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Sección de servicios */
+.Our-Services {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.Our-Services h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.services .icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.services h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.services p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Sección de contacto */
+.contact-content {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.contact-content form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-content input,
+.contact-content textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-content textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-content button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
